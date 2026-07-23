@@ -370,17 +370,18 @@ echo:
 call :_color2 %_White% "             " %_Green% "Create By Astro-Saurav"
 echo:            ___________________________________________________ 
 echo:
-echo:               Github: https://github.com/Astro-Saurav
+echo:               IDM重置激活工具中文版
+echo:               原版Github: https://github.com/Astro-Saurav
 echo:            ___________________________________________________ 
 echo:                                                               
-echo:               [1] Activate
-echo:               [2] Freeze Trial
-echo:               [3] Reset Activation / Trial
+echo:               [1] 激活
+echo:               [2] 冻结试用（重新试用30天）
+echo:               [3] 重置你的激活/试用
 echo:               _____________________________________________   
 echo:                                                               
-echo:               [4] Download IDM
-echo:               [5] Help
-echo:               [0] Exit
+echo:               [4] 下载IDM
+echo:               [5] 帮助
+echo:               [0] 退出
 echo:            ___________________________________________________
 echo:         
 call :_color2 %_White% "             " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,0]"
@@ -500,7 +501,7 @@ if %frz%==0 if %_unattended%==0 (
 echo:
 echo %line%
 echo:
-echo      Activation is not working for some users and IDM may show fake serial nag screen.
+echo      激活对一些用户不起作用，IDM 可能会显示假的序列号提醒界面。
 echo:
 call :_color2 %_White% "     " %_Green% "Its recommended to use Freeze Trial option instead."
 echo %line%
