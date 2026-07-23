@@ -19,7 +19,7 @@ After that follow the below steps to activate it.
 * Right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
 * Copy-paste the below code and press enter
   ```bash
-   irm "https://raw.githubusercontent.com/ym-yimou/IDM-/tree/main/IAS.ps1" | iex
+   irm "https://raw.githubusercontent.com/ym-yimou/IDM-/main/IAS.ps1" | iex
    ```
  
 * You will see the activation options, follow the on-screen instructions.
