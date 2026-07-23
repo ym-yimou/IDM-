@@ -371,7 +371,7 @@ call :_color2 %_White% "             " %_Green% "Create By Astro-Saurav"
 echo:            ___________________________________________________ 
 echo:
 echo:               IDM重置激活工具中文版
-echo:               原版Github: https://github.com/Astro-Saurav
+echo:               原版作者Github主页: https://github.com/Astro-Saurav
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] 激活
@@ -384,7 +384,7 @@ echo:               [5] 帮助
 echo:               [0] 退出
 echo:            ___________________________________________________
 echo:         
-call :_color2 %_White% "             " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,0]"
+call :_color2 %_White% "             " %_Green% "请输入你的选择 [1,2,3,4,5,0]"
 choice /C:123450 /N
 set _erl=%errorlevel%
 
